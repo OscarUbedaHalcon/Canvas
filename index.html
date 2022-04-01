@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Proyecto_m06_uf1</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/index.css" />
+    <link rel="stylesheet" href="/CSS/particles.css" />
+    <!-- CANVAS JS -->
+    <script src="/JS/video.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
+
+  </head>
+
+  <body>
+    <!-- ID Particles.js -->
+    <div id="particles-js">
+
+      <header class="contenedor header">
+      <!-- Título y descripción -->
+      <img align="left" width="10%" src="/IMAGENES/logo.png" alt="logo">
+      <div class="contenido-descripcion">
+        <h1 class="titulo-centrado">Graphics Generator</h1>
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Demo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aplicacion.html">Aplicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="autores.html">Autores</a>
+          </li>
+        </ul>
+          <p align="center" >
+              </br>
+            <video id="video" type="video/mp4" src="/video/video.mp4" width="500px" height="200px"></video>
+          </p>
+
+          <div align="center" id="botonesVideo">
+            <button type="button" id="play"><b>Play</b></button>
+            <input type="range" id="proceso" value="0">
+            <button type="button" id="mute"><b>Silenciar</b></button>
+            <input type="range" id="volumen" min="0" max="1" step="0.1" value="1">
+            <button type="button" id="pantallaCompleta"><b>Pantalla Completa</b></button>
+            </div>
+               
+        
+           </div>
+            
+            <!-- Video Controls -->
+            
+              <p align="justify" >Hola, Bienvenido a nuestra aplicacion, desde aqui podra observar las diferentes funcionalidades que ofrece nuestra app.
+                Muchas gracias por utilizar Graphics Generator.</p>
+            </div>
+            </div>
+            
+            
+    
+          
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+    
+   </body>
+
+  <!-- JS Particles.js -->
+  <script  src="/JS/app.js"></script>
+
+</html>
